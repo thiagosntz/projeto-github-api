@@ -1,4 +1,4 @@
-import { baseUrl, repositoriesQuantity } from "../variables.js"
+import { baseUrl, repositoriesQuantity } from "/src/scripts/variables.js"
 
 // buscando os repositórios do usuário no git
 async function getRepositories(userName){
